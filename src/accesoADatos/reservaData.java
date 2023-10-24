@@ -8,11 +8,11 @@ import java.sql.SQLException;
 public abstract class reservaData<Reserva> {
 
     private Connection con = null;
-    private huespedData = new huespedData();
+    private huespedData huespedDataInstance = new huespedData();
 
 
 
-    private habitacionData =new habitacionData();
+    private habitacionData habitacionDataInstance =new habitacionData();
 
 
 
